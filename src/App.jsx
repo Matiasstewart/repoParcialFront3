@@ -1,12 +1,15 @@
+import { useState } from 'react'
+import './App.css'
+import Formulario from './components/Formulario'
+import './App.css'
+
 function App() {
-  //Aqui deberias agregar los estados y los handlers para los inputs
 
   return (
     <div className="App">
-      <h1>Elige un color</h1>
-      <form>{/* aqui deberias escribir tu codigo */}</form>
+      <Formulario/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
